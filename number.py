@@ -112,8 +112,8 @@ class Number:
         returns: list
         """
         s=[]
-        for i in range(1, self.value):
-            s.append(i)
+
+        s.append()
         return s
 
     def get_max(self):
@@ -134,8 +134,10 @@ class Number:
         returns: int
         """
         s=[]
-        for i in range(1, self.value):
-            s.append(i)
+        f=self.value%10
+        d=self.value/10
+        s.append(d)
+        s.append(f)
         return min(s)
 
     def get_average(self):
@@ -177,7 +179,7 @@ class Number:
     
 
 # Create a new instance of Number
-number = Number(33)
+number = Number(32)
 # print(number.get_number())
 # print(number.is_even())
-print(number.  is_palindrome())
+print(number.get_min())
