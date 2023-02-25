@@ -179,7 +179,7 @@ class Number:
     
 
 # Create a new instance of Number
-number = Number(32)
+number = Number(5)
 # print(number.get_number())
 # print(number.is_even())
-print(number.get_min())
+print(number.get_sum())
